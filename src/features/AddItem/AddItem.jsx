@@ -6,7 +6,15 @@ import { createItem } from "../../reducers/items";
 import { Form } from "../../library/Form";
 import { InputField } from "../../library/InputField";
 import { TestButton } from "../../library/IconButton";
+import   Delete  from "./delete.svg";
 
+const TestIcon = () => {
+ return (
+  <> 
+   <img src={Delete} alt = "delete" />
+   </>
+ );
+};
 
 const AddItem = () =>  {
   const [itemData, setItemData] = useState("");
@@ -40,6 +48,7 @@ const AddItem = () =>  {
       >
         <ControlPointIcon />
       </IconButton>
+      <TestIcon />
       <TestButton />
     </Form>
   );
