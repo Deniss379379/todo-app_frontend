@@ -1,4 +1,7 @@
-import { box } from "./styles/index.module.scss"
+import React from 'react';
+import styles from "./styles/index.module.scss"
+
+const {box} = styles;
 
 const Form = (props) => {
     const { action = '#',

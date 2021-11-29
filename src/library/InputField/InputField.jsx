@@ -1,4 +1,7 @@
-import { textField } from "./styles/index.module.scss";
+import React from 'react';
+import styles from "./styles/index.module.scss";
+
+const { textField } = styles;
 
 const InputField = (props) => {
   const { type =  "text", className = `${textField}`, ...rest } = props; 

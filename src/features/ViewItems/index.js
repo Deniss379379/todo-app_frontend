@@ -1,4 +1,4 @@
-import { ViewItems } from './ViewItems';
+import { ViewItems } from './ViewItems.jsx';
 
 export { ViewItems };
 

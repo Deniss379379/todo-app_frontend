@@ -1,4 +1,4 @@
-import { TodoListItem } from './Item';
+import { TodoListItem } from './Item.jsx';
 
 export { TodoListItem };
 
