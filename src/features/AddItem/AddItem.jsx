@@ -1,12 +1,10 @@
-import  React, { useState, useEffect } from "react"
+import  React, { useState, } from "react"
 import { useDispatch } from "react-redux"
-import { IconButton} from "@mui/material"
+import { IconButton } from "@mui/material"
 import ControlPointIcon from '@mui/icons-material/ControlPoint';
 import { createItem } from "../../reducers/items";
-import { Button } from "../../library/Button";
 import { Form } from "../../library/Form";
 import { InputField } from "../../library/InputField";
-import { Divider } from "../../library/Divider";
 
 
 
@@ -18,33 +16,31 @@ const AddItem = () =>  {
   const handleSubmit = async (e) => {
     dispatch(createItem(itemData));
     setItemData("");
-     }
+  }
     
   const handleChange = (e) => {
-  setItemData({title: e.target.value})
+    setItemData({title: e.target.value})
   }
-  
 
   return (
     <Form
-    noValidate
-    onSubmit = {handleSubmit}
+      noValidate
+      onSubmit = {handleSubmit}
     >
-        <InputField
+      <InputField
         placeholder = "create todo"
         aria-label = 'create todo'
         onChange = {handleChange} 
-        />
-        <Divider />
-        <Button
-          aria-label = "add"
-        >
-        Add
-        </Button>
+      />
+      <IconButton
+        color = "primary"
+        type = "submit"
+        className = "iconButton"
+        aria-label = "add"
+      >
+        <ControlPointIcon />
+      </IconButton>
     </Form>
-  
-
-    
   );
 };
 
