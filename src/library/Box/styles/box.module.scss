@@ -1,0 +1,15 @@
+@use "../../styles/index.module.scss";
+//@use "material-components-web/material-components-web";
+//@use "../../variable";
+
+.box {
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)
+
+};

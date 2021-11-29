@@ -1,0 +1,25 @@
+@use "../../styles/index.module.scss";
+//@use "material-components-web/material-components-web";
+//@use "../../variable";
+//input {
+//  border: none;
+//};
+//input:focus {
+//    outline: none;
+//}
+
+.textField {
+    font: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    margin: 0px;
+    padding: 0;
+    border: none;
+    outline: none;
+    min-width: 0;
+    width: 100%;
+  
+};
+

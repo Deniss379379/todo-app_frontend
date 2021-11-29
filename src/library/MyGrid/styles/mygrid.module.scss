@@ -1,0 +1,13 @@
+@use "../../styles/index.module.scss";
+//@use "material-components-web/material-components-web";
+//@use "../../variable";
+
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 24px;
+
+
+};
+

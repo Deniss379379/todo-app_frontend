@@ -1,0 +1,47 @@
+//https://material.io/design/typography/the-type-system.html#type-scale
+
+$font-weight-values(
+  
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+
+) !default;
+
+
+:root {
+
+
+
+
+//body 1
+
+
+
+--font-button-weight: 4px;
+--font-button-size: 14;
+--font-button-letter-spacing: 1.25;
+--font-button-text-transform: uppercase;
+
+
+//body 2 
+
+--font-button-weight: 4rem;
+--font-button-size: 14rem;
+--font-button-letter-spacing: 1.25;
+--font-button-text-transform: uppercase;
+
+
+
+//button
+
+--font-button-weight: Medium;
+--font-button-size: 14;
+--font-button-letter-spacing: 1.25;
+--font-button-text-transform: uppercase;
+
+
+
+
+};

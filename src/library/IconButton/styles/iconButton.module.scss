@@ -1,0 +1,21 @@
+@use "../../styles/index.module.scss";
+//@use "material-components-web/material-components-web";
+//@use "../../variable";
+
+
+.iconButton {
+  padding: 8px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  overflow: visible;
+  flex: 0 0 auto
+  border-radius: 50%;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  
+  color: #1976d2;
+
+};
