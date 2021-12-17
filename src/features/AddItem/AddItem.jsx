@@ -5,7 +5,7 @@ import ControlPointIcon from '@mui/icons-material/ControlPoint';
 import { createItem } from "../../reducers/items";
 import { Form } from "../../library/Form";
 import { InputField } from "../../library/InputField";
-import { TestButton } from "../../library/IconButton";
+
 
 
 const AddItem = () =>  {
@@ -13,7 +13,7 @@ const AddItem = () =>  {
   const dispatch = useDispatch();
 
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     dispatch(createItem(itemData));
     setItemData("");
   }
@@ -40,7 +40,6 @@ const AddItem = () =>  {
       >
         <ControlPointIcon />
       </IconButton>
-      <TestButton />
     </Form>
   );
 };
