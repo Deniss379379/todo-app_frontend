@@ -17,7 +17,6 @@ const TodoListItem = ({item}) => {
         </Typography>
         <IconButton
           color = "primary"
-          edge = "end"
           onClick={() => dispatch(deleteItem(item._id))}
           style = {styles.IconButton}
           aria-label = "delete"
